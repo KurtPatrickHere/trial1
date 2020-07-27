@@ -1,0 +1,27 @@
+<html>
+    <head></head>
+    <body>
+        
+        <h1>
+            title
+        </h1>
+        <p> trash</p>
+        <img src="bd415e1agy3g8e2xp83gmj20u0140qdm.jpg" alt="" height="30%" width="30%">
+        <form action="">
+            文本框：<input type="text" name="text1" id="text1">
+            文本框2：<input type="text" name="text2" id="text2">
+        </form>
+        <script src="jquery-3.2.1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("p").before("<p>baybay hit me one more time</p>")
+                var h1 = $("h1").html();
+                alert(h1);
+                $("h1").eq(0).html("<span style='color:red'>Charli XCX</span>");
+                var in1=$("input").val();
+                alert(in1);
+                $("input").val("测试文档");
+            });
+        </script>
+    </body>
+</html>
